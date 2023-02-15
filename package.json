@@ -1,0 +1,17 @@
+{
+  "name": "ohmyfood",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "sass": "sass --watch ./scss/styles.scss:./css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "# actorres88"
+  },
+  "author": "Carol Torres",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
