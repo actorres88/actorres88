@@ -1,5 +1,4 @@
 .card{
-    background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 20px 0 rgba($color: #000000, $alpha: 0.2);
@@ -10,12 +9,14 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    background-color: $tertiary;
+    text-decoration-color: darken ($tertiary, 50);
 }
 
 .card_img{
     width: 100px;
     object-fit: cover;
-   
+
 }
 
 .card_body{

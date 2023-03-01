@@ -6,16 +6,15 @@
 	flex-direction: column;
 	gap: 20px;
 	
-}
-.list-item {
+    &__list-item{
     padding: 20px 20px 20px 0;
     border-radius: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
     box-shadow: 1px 5px 20px;
+    }
     
-
     .instructions-group__number{
         background-color: $primary;
         height: 25px;
@@ -29,6 +28,7 @@
     }
     
     //Modifer "--"
-    &.instructions-btn__icon--active {
+    &__icon--active {
         color:$primary;
     }
+}
