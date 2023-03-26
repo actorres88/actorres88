@@ -1,13 +1,22 @@
 .logo-container {
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    box-shadow: 0px 5px 2px 3px rgb(30, 28, 28);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: none;
+    box-shadow: 0px 2px 2px 2px rgb(82, 82, 82, 0.15);
+    position:relative;
+    z-index: 1;
+    
 }
 
 
 .logo {
+    font-size: 25px; 
+    font-family: 'Shrikhand', cursive;
+    color: black;
+    
+}
+
+.img-logo {
     height: 25px;
-    
-    
 }
