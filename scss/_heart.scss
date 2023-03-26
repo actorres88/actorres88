@@ -1,0 +1,39 @@
+.heart{
+
+    position: relative;
+    background: transparent;
+    border: 0;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+   
+    
+     .heart__empty, .heart__full{
+        transition: opacity 1s;
+        position: absolute;
+        top: 0;
+        left: 0;
+     }
+
+    .heart__empty {
+        opacity: 1;
+       }
+       .heart__full{
+        opacity: 0;
+       }
+
+    &:hover { 
+
+       .heart__empty {
+        opacity: 0;
+       }
+       .heart__full{
+        opacity: 1;
+        background: linear-gradient(168deg, $secondary 0%, $primary 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+       }
+
+    }
+}
