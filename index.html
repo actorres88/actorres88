@@ -17,133 +17,146 @@
     <link href="./styles.css" rel="stylesheet" >
 </head>
 <body>
+    <div class="loader">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
     <!-- Brand -->
     <nav class="logo-container">
-        <img class="logo" src="images/logo/ohmyfood.png" alt="logo" >
+        <img class="img-logo" src="images/logo/ohmyfood.png" alt="logo" >
     </nav>
     <!-- Location -->
     <div class="location">
-        <div class="location-icon">
             <i class="fa-solid fa-location-dot"></i> Paris, Belleville
-        </div>  
     </div>
     <!-- Button -->
-    <div class="background-gray center">
-        <h2>Book the menu you like</h2>
-        <p>Discover top-of-the-art restaurants we picked for you</p>
-        <button class="btn btn--primary">Explore our restaurants</button>
-    </div>
+    <header class="background-gray center section section-spacer">
+        <h2 class="section-title">Book the menu you like</h2>
+        <h4 class="sub-title">Discover top-of-the-art restaurants we picked for you</h4>
+        <div>
+            <button class="btn btn--primary">Explore our restaurants</button>
+        </div>
+    </header>
     <!-- List -->
-    <div class="background-white">
-        <h2>How it works</h2>
+    <div class="background-white section">
+        <div class="container">
+        <h2 class="section-title">How it works</h2>
             <ol class="instructions-group"> 
                 <li class="instructions-group__list-item">
                     <span class="instructions-group__number">1</span>
                     <span class="instructions-group__icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
 		            <span class="instructions-group__title"> Chose a restaurant</span>
                 </li>
-                <li class="list-item">
+                <li class="instructions-group__list-item">
                     <span class="instructions-group__number">2</span>
-                    <span class="instructions-btn__icon"><i class="fa-solid fa-list-ul"></i> <span>
-		            <span class="instructions-btn__title"> Create your menu</span>
+                    <span class="instructions-group__icon"><i class="fa-solid fa-list-ul"></i> <span>
+		            <span class="instructions-group__title">   Create your menu</span>
                 </li>
-                <li class="list-item">
+                <li class="instructions-group__list-item">
                     <span class="instructions-group__number">3</span>
-                    <span class="instructions-btn__icon"><i class="fa-solid fa-store"></i> <span>
-		            <span class="instructions-btn__title"> Go enjoy it at the restaurant</span>
+                    <span class="instructions-group__icon"><i class="fa-solid fa-store"></i> <span>
+		            <span class="instructions-group__title"> Go enjoy it at the restaurant</span>
                 </li>
-            </ol>   
+            </ol>
+        </div>       
     </div>
     <!-- Cards -->
-    <div class="background-gray">
-        <h2>Restaurants</h2>
-        <div class="card">
-            <img class="card-img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="The Full Palette">
-            <div class="New">New
-            </div >
-                <div class="row">
-                    <div class="flex-grow-1">
-                        <h3>The Full Palette</h3>
-                        <p>New York</p>
-                    </div>
-                    <div class="flex-grow-2">
-                        <button class="heart">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-heart"></i>
-                        </button>
-                    </div>
-                </div>
+    <div class="background-gray section">
+        <div class="container">
+            <h2 class="section-title">Restaurants</h2>
+            <div class="row column">
+                <div class="col spacer">
+                        <div class="card spacer">
+                            <img class="card__img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="The Full Palette">
+                                <div class="card__label">New
+                                </div >
+                                 <div class="card__body space-between">
+                                     <a href="La palette du goût.html">
+                                    <h4 class="card__title">The Full Palette</h4> 
+                                    <p class="card__text">New York</p>
+                                     </a>
+                                <div>
+                                    <button class="heart">
+                                        <i class="heart__empty fa-regular fa-heart"></i>
+                                        <i class="heart__full fa-solid fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div > 
+                        </div>
+                        <div class="card">
+                            <img class="card__img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="The Enchanted Plate">
+                                <div class="card__label">New
+                                </div >
+                            <div class="card__body space-between">
+                                <a href="La note enchantée.html">
+                                    <h4 class="card__title">The Enchanted Plate</h4> 
+                                    <p class="card__text">New York</p>
+                                </a>
+                                <div>
+                                    <button class="heart">
+                                        <i class="heart__empty fa-regular fa-heart"></i>
+                                        <i class="heart__full fa-solid fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </div>     
+                <div class="col">
+                        <div class="card spacer">
+                            <img class="card__img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Bastille">
+                            <div class="card__body space-between">
+                                <a href="À la française.html">
+                                    <h4 class="card__title">Bastille</h4> 
+                                    <p class="card__text">New York</p>
+                                </a>
+                                <div>
+                                    <button class="heart">
+                                        <i class="heart__empty fa-regular fa-heart"></i>
+                                        <i class="heart__full fa-solid fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="card">
+                        <img class="card__img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Gourmand">
+                        <div class="card__body space-between">
+                            <a href="Le délice des sens.html">
+                                <h4 class="card__title">Le Gourmand</h4> 
+                                <p class="card__text">New York</p>
+                            </a>
+                            <div>
+                                <button class="heart">
+                                        <i class="heart__empty fa-regular fa-heart"></i>
+                                        <i class="heart__full fa-solid fa-heart"></i>
+                                    </button>
+                            </div>
+                        </div> 
+                    </div> 
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="The Enchanted Plate">
-            <button class="New">New</button>
-                <div class="card row">
-                    <div class="flex-grow-1">
-                        <h3>The Enchanted Plate</h3>
-                        <p>New York</p>
-                    </div>
-                    <div class="flex-grow-2">
-                    <button class="heart">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Bastille">
-            <button class="New">New</button>
-                <div class="card row">
-                    <div class="flex-grow-1">
-                        <h3>Bastille</h3>
-                        <p>New York</p>
-                    </div>
-                    <div class="flex-grow-2">
-                    <button class="heart">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le Gourmand">
-            <button class="New">New</button>
-                <div class="card row">
-                    <div class="flex-grow-1">
-                        <h3>Le Gourmand</h3>
-                        <p>New York</p>
-                    </div>
-                    <div class="flex-grow-2">
-                    <button class="heart">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-heart"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+          </div> 
+        </div>    
+    </div>                  
 </body>
 <!-- Footer -->
-<footer>
-    <div class="footer-container">
-        <img src="images/logo/ohmyfood.png" alt="logo" class="logo-dark">
-        <ul class="unstyled-list footer-list">
-            <li>
-                <span class="footer-icon">
+<footer class="footer__container">
+    <div class="container">
+        <div class="footer-logo"> 
+            <h3>ohmyfood</h3>
+        </div>
+        <ol class="unstyled-list">
+            <li class="unstyled-list__item">
+                <span class="unstyled-list__icon">
                 <i class="fa-solid fa-utensils"></i>
-                </span><a href="#">Suggest a restaurant</a>
+                </span><a class="footer__link"
+                href="#">Suggest a restaurant</a>
             </li>
-            <li>
-                <span class="footer-icon">
-                    <i class="fa-solid fa-handshake-angle"></i>
-                    </span><a href="#">Become a partner</a>
+            <li class="unstyled-list__item">
+                <span class="unstyled-list__icon">
+                <i class="fa-solid fa-handshake-angle"></i>
+                </span><a class="footer__link" href="#">Become a partner</a>
             </li>
-            Legal
-            Contact
-        </ul>
+            <li class="unstyled-list__item">Legal</li>
+            <li class="unstyled-list__item">Contact</li>
+        </ol>
     </div>
 </footer>
 </html>
