@@ -1,8 +1,11 @@
 .location { 
     background-color: $dark-gray;
     text-align: center;
- 
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
+    color: #383838;
+    display:flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .location-icon {

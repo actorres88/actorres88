@@ -1,0 +1,21 @@
+.section{
+    padding: 40px 0;
+    
+    &__title{
+        margin-top: 0;
+    }
+
+    &--spacer  {
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+        
+    
+        
+h2, h3{
+    margin: 0;
+}
+
+}
+
+}
