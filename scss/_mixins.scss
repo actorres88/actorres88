@@ -1,3 +1,7 @@
 @mixin theme ($theme: $light-gray){
     background: $theme;
 }
+
+@mixin shadow {
+    box-shadow: 1px 5px 20px;
+}

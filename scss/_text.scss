@@ -2,6 +2,38 @@ html{
     font-family: Roboto;
 
 }
-.title{
+
+a{
+    color: black;
+}
+
+
+.sub-title{
+    margin: 34px 0;
+    font-weight: 300;
+}
+
+.section-title{
+    margin-top: 0;
+}
+
+.spacer{
+    margin-bottom: 20px;
+}
+
+.cursive {
     font-family: 'Shrikhand', cursive;
+    color: black;
+}
+
+.line{
+    border-bottom: 5px solid $tertiary;
+    width: 40px;
+    margin-bottom: 22px;
+}
+
+.styled-title {
+    margin-bottom: 5px;
+    font-weight: 300;
+
 }
