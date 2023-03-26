@@ -1,3 +1,30 @@
-.footer{
-    background-color: rgb(84, 84, 84);
+.footer__container{
+    background-color: #353535;
+    color: white;
+    padding: 10px 5px;
+}
+
+.footer-logo {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+}
+
+.unstyled-list{
+    list-style: none;
+    text-decoration-line: none;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+}
+
+.footer__link {
+color: #fff;
+}
+
+.footer__unstyled-list li{
+    margin-bottom: 10px;
+}
+
+.unstyled-list__icon{
+    margin-right: 10px;
 }
