@@ -3,7 +3,7 @@
 
 Description
 
-Mockup for OpenClassrooms Bootcamp.  The mockups are designed for Ohmyfood, is an online food ordering company. They represent the fictional menus of  four great Parisian restaurants.
+Mockup for OpenClassrooms Bootcamp.  The mockups are designed for Ohmyfood, an online food ordering company. They represent the fictional menus of  four great Parisian restaurants.
 
 ##How to compile SASS
 
