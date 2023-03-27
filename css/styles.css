@@ -191,7 +191,7 @@ a {
   top: 20px;
   right: 20px;
   background-color: #99E2D0;
-  text-decoration-color: darken #99E2D0, 15;
+  text-decoration-color: #5dd1b5;
   padding: 5px 20px;
   border-radius: 3px;
   color: #009074;
@@ -447,7 +447,6 @@ a {
   width: 75px;
 }
 .menu-item:hover .menu-item__checkmark-icon {
-  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 .menu-item .menu-item__body {
