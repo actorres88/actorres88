@@ -431,6 +431,11 @@ a {
   margin-right: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
+@media screen and (min-width: 768px) {
+  .menu {
+    max-width: 1000px;
+  }
+}
 
 .menu-item {
   background: white;
