@@ -40,6 +40,9 @@
 
 // tablet
 @media screen and (min-width: 768px ){
+    .column {
+        flex-direction: row;
+     }
  
 }
 
